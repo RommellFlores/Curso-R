@@ -1,0 +1,12 @@
+# Nombre: Rommell FLores Ramos 20152731B
+
+# Respuesta(4a):
+
+f1<- function(x= {y<- 1;2}, y=0){
+x+y
+}
+f1()
+
+Dicha funcion produce la suma de dos valores en f1(a,b) tal que a+b
+pero por defecto el f1() da como resultado 3 ya que x=2, y=1
+

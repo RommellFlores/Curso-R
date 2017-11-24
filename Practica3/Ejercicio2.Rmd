@@ -1,0 +1,34 @@
+# Nombre: Rommell FLores Ramos 20152731B
+
+# Respuesta(2a):
+
+>En mrtcars[-1:4] su error es que no puede haber un numero negativo
+en un a:b ya que señalan la fila y columna lo cual sus valores son enteros
+positivos, tambien que falla al no poner la coma despues del -1:4 ya que
+solo se ha señalado la fila mas no la columna lo cual quedaria indefinida lo ultimo.
+
+Lo correcto: mtcars[1:4,]
+
+
+>En mtcars[mtcars$cyl<=5] su error es nuevamente no poner la coma despues de
+enunciar la fila.
+
+Lo correcto: mtcars[mtcars$cyl<=5,]
+
+
+# Respuesta(2b):
+
+como x<- 1:5
+Entonces x: [1] 1 2 3 4 5
+Pero nos pide la posicion x[NA] lo cual esta presente en cada elemento
+por ende se produce los 5 valores de NA
+x[NA]: [1] NA NA NA NA NA
+
+# Respuesta(2c):
+
+El mtcars[1:20] retorna a error pues como dijimos en la 2a no tiene el coma
+despues de enunciar la fila lo cual la columna queda indefinida.
+
+Correcto: mtcars[1:20,] ya que este muestra las 20 filas y todas las columnas
+que tiene.
+
